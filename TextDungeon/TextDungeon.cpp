@@ -10,7 +10,7 @@
 void StartScreen()
 {
     printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
-    printf(": Hello! Welcome to Text Dungeon. A text-2based game that runs on CPP. :");
+    printf(": Hello! Welcome to Text Dungeon. A text-based game that runs on CPP. :");
     printf(": Created by Marian and Sphinx.                                       :");
     printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
     printf(": 1)                            Start                                 :");
