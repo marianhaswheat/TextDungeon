@@ -5,20 +5,16 @@
 #include <iostream>
 #include <string>
 
-void printf(std::string str)
-{
-    std::cout << str;
-    std::cout << std::endl;
-}
+#define printf(x) std::cout << x << std::endl;
 
 void StartScreen()
 {
-    printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- \0");
-    printf(": Hello! Welcome to Text Dungeon. A text based game that runs on CPP. :");
+    printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
+    printf(": Hello! Welcome to Text Dungeon. A text-2based game that runs on CPP. :");
     printf(": Created by Marian and Sphinx.                                       :");
     printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
-    printf(": 1)                            start                                 :");
-    printf(": 2)                            exit                                  :");
+    printf(": 1)                            Start                                 :");
+    printf(": 2)                            Exit                                  :");
     printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
 
     unsigned int input;
