@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextDungeon", "TextDungeon\TextDungeon.vcxproj", "{09942B36-9038-49C3-BB90-5866398B6C7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09942B36-9038-49C3-BB90-5866398B6C7A}.Debug|x64.ActiveCfg = Debug|x64
+		{09942B36-9038-49C3-BB90-5866398B6C7A}.Debug|x64.Build.0 = Debug|x64
+		{09942B36-9038-49C3-BB90-5866398B6C7A}.Debug|x86.ActiveCfg = Debug|Win32
+		{09942B36-9038-49C3-BB90-5866398B6C7A}.Debug|x86.Build.0 = Debug|Win32
+		{09942B36-9038-49C3-BB90-5866398B6C7A}.Release|x64.ActiveCfg = Release|x64
+		{09942B36-9038-49C3-BB90-5866398B6C7A}.Release|x64.Build.0 = Release|x64
+		{09942B36-9038-49C3-BB90-5866398B6C7A}.Release|x86.ActiveCfg = Release|Win32
+		{09942B36-9038-49C3-BB90-5866398B6C7A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAA9C1CC-0692-4085-BF99-661FE4452924}
+	EndGlobalSection
+EndGlobal
